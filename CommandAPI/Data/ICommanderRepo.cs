@@ -8,7 +8,7 @@ namespace CommandAPI.Data
 {
     public interface ICommanderRepo
     {
-        IEnumerable<Command> GetAppCommands();
+        IEnumerable<Command> GetAppAllCommands();
         Command GetCommandById(int id);
     }
 }
