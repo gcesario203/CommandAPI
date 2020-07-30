@@ -10,5 +10,9 @@ namespace CommandAPI.Data
     {
         IEnumerable<Command> GetAppAllCommands();
         Command GetCommandById(int id);
+        void CreateCommand(Command pCommand);
+        void DeleteCommandById(Command pCommand);
+        void UpdateCommand(Command pCommand);
+        bool SaveChanges();
     }
 }
